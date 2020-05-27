@@ -54,10 +54,10 @@
                 <a href="{% url 'logout' %}" class="nav-link">
                     <i class="fas fa-sign-out-alt"></i>Logout
                 </a>
-                <form action="{% url 'logout' %}" method="post" id="logout">
-                    {% csrf_token %}
-                    <input type="hidden" name="">
-                </form>
+{#                <form action="{% url 'logout' %}" method="post" id="logout">#}
+{#                    {% csrf_token %}#}
+{#                    <input type="hidden" name="">#}
+{#                </form>#}
             </li>
         {% else %}
           <li
